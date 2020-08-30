@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Cox Automotive / KBB Programming Challenge</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+    </head>
+    <body>
+        <div id="app" class="container is-fluid">
+            <section class="is-full mb-4">
+                <h1 class="is-size-1 has-text-centered mt-6 mb-6">Cox Automotive / KBB Programming Challenge</h1>
+                <p class="has-text-weight-semibold">DatasetId: <span id="datasetid" class="code has-text-primary"></span></p>
+                <p class="mt-4">Click start to generate a data set id. The program will then fetch a list of vehicles, dealers for that dataset based on id and check against Cox Automotive Programming API if the answer is correct and was under 30 seconds.</p>
+                <button id="dataIdGet" class="button mt-4 is-primary">Start Me Up</button>
+            </section>
+            <section class="box">
+                <h2 class="mb-4 has-text-weight-semibold">Answer</h2>
+                <div class="columns mb-4">
+                    <code id="result" class="column is-full is-family-code"></code>
+                </div>
+            </section>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
