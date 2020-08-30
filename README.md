@@ -1,6 +1,6 @@
 ## INSTRUCTIONS
 
-You don't need to npm install anything.  Everything just works in the browser, head on over to index.html and open it up.  It pulls from the file 'script.js'.  From there hit the "Start me up" button, and the program should connect over to KBB (so long as you have internet).  After a few seconds, you should see a message for the "Answer" in the "Answer" section.
+It isn't necessary to npm install unless you are viewing the unit tests.  Everything just works in the browser, head on over to `index.html` and open it up.  It pulls from the file `script.js`.  From there hit the **Start me up** button, and the program should connect over to KBB (so long as you have Internet).  After a few seconds, you should see a message for the **Answer** in the **Answer** section.
 
 ## UNIT TESTING
 
