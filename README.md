@@ -1,6 +1,8 @@
 ## INSTRUCTIONS
 
-It isn't necessary to npm install unless you are viewing the unit tests.  Everything just works in the browser, head on over to `index.html` and open it up.  It pulls from the file `script.js`.  From there hit the **Start me up** button, and the program should connect over to KBB (so long as you have Internet).  After a few seconds, you should see a message for the **Answer** in the **Answer** section.
+It isn't necessary to npm install unless you are viewing the unit tests.  Everything just works in the browser, head on over to `index.html` and open it up.  It pulls from the file `script.js`.  From there hit the **Start me up** button, and the program should connect over to KBB (so long as you have Internet, and aren't trying to view the site from an HTTPS server -- the Cox API is on HTTP so requests may be blocked via your browser).  For best results, just open `index.html` from the folder directly on your computer and view locally.
+
+After clicking the "Start me up button", in a few seconds, you should see a message for the **Answer** in the **Answer** section, containing the result (Correct/Incorrect) and time in milliseconds.
 
 ## UNIT TESTING
 
